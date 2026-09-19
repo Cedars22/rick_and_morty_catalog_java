@@ -1,4 +1,4 @@
-package com.example.TestSpring.service;
+package com.example.testspring.service;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
@@ -11,11 +11,11 @@ import static org.springframework.test.web.client.match.MockRestRequestMatchers.
 import static org.springframework.test.web.client.response.MockRestResponseCreators.withResourceNotFound;
 import static org.springframework.test.web.client.response.MockRestResponseCreators.withSuccess;
 
-import com.example.TestSpring.dto.PaginaDto;
-import com.example.TestSpring.dto.PersonajeDto;
-import com.example.TestSpring.exception.RecursoNoEncontradoException;
-import com.example.TestSpring.model.Personaje;
-import com.example.TestSpring.repository.PersonajeRepository;
+import com.example.testspring.dto.PaginaDto;
+import com.example.testspring.dto.PersonajeDto;
+import com.example.testspring.exception.RecursoNoEncontradoException;
+import com.example.testspring.model.Personaje;
+import com.example.testspring.repository.PersonajeRepository;
 import java.util.Optional;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

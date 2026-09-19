@@ -1,4 +1,4 @@
-package com.example.TestSpring.dto;
+package com.example.testspring.dto;
 
 import java.util.List;
 

@@ -1,4 +1,4 @@
-package com.example.TestSpring.model;
+package com.example.testspring.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

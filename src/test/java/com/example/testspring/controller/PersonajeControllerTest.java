@@ -1,4 +1,4 @@
-package com.example.TestSpring.controller;
+package com.example.testspring.controller;
 
 import static org.mockito.ArgumentMatchers.anyLong;
 import static org.mockito.Mockito.when;
@@ -6,10 +6,10 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
-import com.example.TestSpring.dto.PaginaDto;
-import com.example.TestSpring.dto.PersonajeDto;
-import com.example.TestSpring.exception.RecursoNoEncontradoException;
-import com.example.TestSpring.service.PersonajeService;
+import com.example.testspring.dto.PaginaDto;
+import com.example.testspring.dto.PersonajeDto;
+import com.example.testspring.exception.RecursoNoEncontradoException;
+import com.example.testspring.service.PersonajeService;
 import java.util.List;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

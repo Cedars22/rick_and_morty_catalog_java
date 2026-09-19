@@ -1,4 +1,4 @@
-package com.example.TestSpring.exception;
+package com.example.testspring.exception;
 
 import jakarta.validation.ConstraintViolationException;
 import org.springframework.http.HttpStatus;

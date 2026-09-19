@@ -1,12 +1,12 @@
-package com.example.TestSpring.service;
+package com.example.testspring.service;
 
-import com.example.TestSpring.dto.PaginaDto;
-import com.example.TestSpring.dto.PaginaPersonajesApiDto;
-import com.example.TestSpring.dto.PersonajeApiDto;
-import com.example.TestSpring.dto.PersonajeDto;
-import com.example.TestSpring.exception.RecursoNoEncontradoException;
-import com.example.TestSpring.model.Personaje;
-import com.example.TestSpring.repository.PersonajeRepository;
+import com.example.testspring.dto.PaginaDto;
+import com.example.testspring.dto.PaginaPersonajesApiDto;
+import com.example.testspring.dto.PersonajeApiDto;
+import com.example.testspring.dto.PersonajeDto;
+import com.example.testspring.exception.RecursoNoEncontradoException;
+import com.example.testspring.model.Personaje;
+import com.example.testspring.repository.PersonajeRepository;
 import java.util.List;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

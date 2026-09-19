@@ -1,6 +1,6 @@
-package com.example.TestSpring.dto;
+package com.example.testspring.dto;
 
-import com.example.TestSpring.model.Personaje;
+import com.example.testspring.model.Personaje;
 
 /** Personaje tal como lo expone este servicio. */
 public record PersonajeDto(

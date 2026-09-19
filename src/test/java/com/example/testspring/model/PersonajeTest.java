@@ -1,4 +1,4 @@
-package com.example.TestSpring.model;
+package com.example.testspring.model;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

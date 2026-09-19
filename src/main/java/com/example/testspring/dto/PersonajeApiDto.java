@@ -1,4 +1,4 @@
-package com.example.TestSpring.dto;
+package com.example.testspring.dto;
 
 /**
  * Personaje tal como lo devuelve la API de Rick and Morty.

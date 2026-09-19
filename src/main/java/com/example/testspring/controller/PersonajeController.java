@@ -1,8 +1,8 @@
-package com.example.TestSpring.controller;
+package com.example.testspring.controller;
 
-import com.example.TestSpring.dto.PaginaDto;
-import com.example.TestSpring.dto.PersonajeDto;
-import com.example.TestSpring.service.PersonajeService;
+import com.example.testspring.dto.PaginaDto;
+import com.example.testspring.dto.PersonajeDto;
+import com.example.testspring.service.PersonajeService;
 import jakarta.validation.constraints.Min;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.GetMapping;

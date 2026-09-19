@@ -1,4 +1,4 @@
-package com.example.TestSpring.dto;
+package com.example.testspring.dto;
 
 /**
  * Bloque "origin" de la API externa.

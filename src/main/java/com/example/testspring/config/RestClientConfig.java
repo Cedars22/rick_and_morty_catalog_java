@@ -1,4 +1,4 @@
-package com.example.TestSpring.config;
+package com.example.testspring.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
